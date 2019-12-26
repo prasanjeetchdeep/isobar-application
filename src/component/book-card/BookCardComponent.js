@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Col, Card, Button } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 import "./BookCardComponent.modules.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusCircle, faTimesCircle, faClock, faCalendar } from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +14,7 @@ const BookCardComponent = ({ image, title, description, author, duration, publis
       <Card onMouseEnter={() => {setShowButton(true)}} onMouseLeave={() => {setShowButton(false)}} style={{ boxShadow: "2px 2px 10px #e2e2e2", cursor: "pointer", position: "relative" }}>
       {showButton && showAddButton && <span className="add-to-cart"><FontAwesomeIcon icon={faPlusCircle} />  Add to cart</span>} 
       {showButton && !showAddButton && <span className="remove-from-cart"><FontAwesomeIcon icon={faTimesCircle} /> Remove from cart</span>} 
-        <div style={{ display: "flex", placeContent: "center", padding: 5}}>
+        <div className="flexbox" style={{ placeContent: "center", padding: 5}}>
           <img  src={image} alt={title} style={{ height: 120, opacity: showButton ? 0.7 : 1 }} />
         </div>
 

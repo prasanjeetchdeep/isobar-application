@@ -9,8 +9,7 @@ function App() {
   return (
     <Router history={history}>
         <Switch>
-          <Redirect exact from="/" to="/home" />
-          <Route exact strict path="/home" component={ItemListPage} />
+          <Route exact strict path="/" component={ItemListPage} />
         </Switch>
     </Router>
   );

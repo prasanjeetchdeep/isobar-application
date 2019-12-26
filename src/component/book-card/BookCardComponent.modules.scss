@@ -1,0 +1,35 @@
+.add-to-cart{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: #3f8a4b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 99999;
+}
+
+.remove-from-cart{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: #f95555;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 99999;
+}
+
+.bottom-details{
+    font-size: 12px;
+    color:gray;
+    margin-top: 10px;
+}
+
+.duration-section{
+    float: left;
+}
+
+.publish-date-section{
+    float: right;
+}

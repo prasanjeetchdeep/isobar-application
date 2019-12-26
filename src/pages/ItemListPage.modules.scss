@@ -1,0 +1,32 @@
+$spacing : 15px;
+
+.header-logo-image {
+  height: 40px;
+  margin-left: $spacing;
+}
+
+.header-options {
+  margin-right: $spacing;
+}
+
+.navigation-bar {
+  box-shadow: 0 8px 6px -6px #adadad;
+}
+
+.items {
+  margin-top: 40px;
+}
+
+.jumbotron-background {
+  background-position: right;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(228, 228, 228, 0.3)), url(https://purefy.blob.core.windows.net/cdn/images/comp-inschool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: unset;
+}
+.badge-count{
+  position: absolute;
+  margin-left: -12px;
+  margin-top: -8px;
+  border-radius: 100%;
+}

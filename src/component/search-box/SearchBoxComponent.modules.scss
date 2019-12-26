@@ -1,0 +1,42 @@
+@import "../../theme/elements.scss";
+
+.search-container {
+  position: relative;
+  outline: none;
+  background: $color-gray-light;
+  border: 1px solid $color-gray-light;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+
+  .search-box {
+    background: transparent;
+    border: none;
+    width: 85%;
+    padding-left: 10px;
+    padding-left: 25px;
+    caret-color: $color-gray;
+    outline: none;
+  }
+
+  .cancel-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 10px;
+  }
+
+  &:hover {
+    border: 1px solid $color-gray;
+    border-radius: 4px;
+  }
+
+  &:focus-within {
+    border: 1px solid $color-gray;
+  }
+}

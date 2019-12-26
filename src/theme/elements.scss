@@ -1,0 +1,56 @@
+@import "./themes.scss";
+
+h1 {
+  font-family: Montserrat-SemiBold;
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  font-family: Montserrat-Regular;
+  font-size: 30px;
+  margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+.flexbox-column {
+  flex-direction: column;
+}
+.flexbox-row {
+  flex-direction: row;
+}
+
+
+/* Other Styles*/
+
+.card-font {
+  font-family: Montserrat-Regular;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.input-font {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+}
+
+.book-card-font {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+}
+
+.body-font {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+}
+
+
+
+/*extra*/
+.background-blue {
+    background-color: $color-gray-light;
+}
+

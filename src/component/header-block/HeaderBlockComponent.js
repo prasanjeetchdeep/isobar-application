@@ -6,6 +6,7 @@ import {faShoppingCart, faExclamationCircle } from "@fortawesome/free-solid-svg-
 import "./HeaderBlockComponent.modules.scss";
 import SearchBoxComponent from "../search-box/SearchBoxComponent";
 import HeaderShoppingCartItems from "../header-shopping-cart/HeaderShoppingCartItems";
+import logo from "../../assets/images/logo.png";
 
 const HeaderBlockComponent = ({
   onSignInClick,
@@ -21,7 +22,7 @@ const HeaderBlockComponent = ({
         <Navbar.Brand href="#home">
           <img
             className="header-logo-image"
-            src="https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a2QcXUAU"
+            src={logo}
             alt="logo"
           />
         </Navbar.Brand>

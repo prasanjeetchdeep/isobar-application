@@ -3,11 +3,11 @@ import "./SearchBoxComponent.modules.scss";
 import CancelIcon from "../../assets/images/Cancel.svg";
 import SearchIcon from "../../assets/images/Search.svg";
 
-const SearchBoxComponent = props => {
+const SearchBoxComponent = ({ onSearch }) => {
     const [search, setSearch] = useState("");
     const handleChange = search => {
         setSearch(search);
-        props.onSearch(search);
+        onSearch(search);
     };
 
     return (

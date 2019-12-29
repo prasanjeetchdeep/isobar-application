@@ -1,0 +1,556 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Item List Page 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <nav
+      class="navigation-bar navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <a
+        class="navbar-brand"
+        href="#home"
+      >
+        <img
+          alt="logo"
+          class="header-logo-image"
+          src="https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a2QcXUAU"
+        />
+      </a>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        class="navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          class="mr-auto navbar-nav"
+        />
+        <span
+          class="header-options"
+        >
+          <span
+            style="position: relative;"
+          >
+            <span
+              style="cursor: pointer;"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-shopping-cart fa-w-18 "
+                data-icon="shopping-cart"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                  fill="currentColor"
+                />
+              </svg>
+               
+              <span
+                class="badge-count badge badge-danger"
+              >
+                0
+              </span>
+            </span>
+          </span>
+          <button
+            class="btn btn-outline-primary"
+            style="margin-left: 15px;"
+            type="button"
+          >
+            Sign in
+          </button>
+        </span>
+      </div>
+    </nav>
+    <div
+      class="container"
+    >
+      <div
+        class="jumbotron-background jumbotron"
+      >
+        <div
+          style="max-width: 500px;"
+        >
+          <h1
+            style="color: rgb(232, 230, 230);"
+          >
+            A special thank you
+          </h1>
+          <p
+            style="color: rgb(199, 199, 199);"
+          >
+            We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
+          </p>
+          <div
+            class="flexbox search-container"
+          >
+            <img
+              alt="Search"
+              class="search-icon"
+              src="Search.svg"
+            />
+            <input
+              class="search-box input-font"
+              placeholder="What do you want to learn?"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="header-bar row"
+      >
+        <div
+          class="flexbox col-lg-6"
+        >
+          <div>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-home fa-w-18 header-breadcrumb"
+              data-icon="home"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-chevron-right fa-w-10 header-breadcrumb"
+              data-icon="chevron-right"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 320 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="header-breadcrumb"
+            >
+              Search Results 
+            </span>
+          </div>
+        </div>
+        <div
+          class="col-lg-6"
+          style="text-align: right;"
+        >
+          Sort By :
+          <button
+            class="filter-options btn btn-outline-primary"
+            type="button"
+          >
+            Date 
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-sort fa-w-10 "
+              data-icon="sort"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 320 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            class="filter-options btn btn-outline-primary"
+            type="button"
+          >
+            Duration 
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-sort fa-w-10 "
+              data-icon="sort"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 320 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="items row"
+    >
+      <div
+        class="col-lg-3 col-md-4 col-sm-6 col-12"
+        style="margin-top: 15px;"
+      >
+        <div
+          class="card"
+          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+        >
+          <div
+            class="flexbox"
+            style="place-content: center; padding: 5px;"
+          >
+            <img
+              alt="React - basics"
+              src="https://cdn.auth0.com/blog/react-js/react.png"
+              style="height: 120px; opacity: 1;"
+            />
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="bookcard-title card-title h5"
+              title="React - basics"
+            >
+              React - basics
+            </div>
+            <p
+              class="card-text"
+            >
+              James White
+            </p>
+            <p
+              class="card-text"
+            >
+              This course is going to take you through basics of React.
+            </p>
+            <p
+              class="card-text"
+            >
+              <span
+                class="bottom-details duration-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-clock fa-w-16 "
+                  data-icon="clock"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 00:03:56
+              </span>
+              <span
+                class="bottom-details publish-date-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-calendar fa-w-14 "
+                  data-icon="calendar"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 12/03/2019
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-3 col-md-4 col-sm-6 col-12"
+        style="margin-top: 15px;"
+      >
+        <div
+          class="card"
+          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+        >
+          <div
+            class="flexbox"
+            style="place-content: center; padding: 5px;"
+          >
+            <img
+              alt="Vue - learn vue in an hour"
+              src="https://vuejs.org/images/logo.png"
+              style="height: 120px; opacity: 1;"
+            />
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="bookcard-title card-title h5"
+              title="Vue - learn vue in an hour"
+            >
+              Vue - learn vue in an hour
+            </div>
+            <p
+              class="card-text"
+            >
+              Michael Brown
+            </p>
+            <p
+              class="card-text"
+            >
+              This course teaches you how to build a vue application in an hour.
+            </p>
+            <p
+              class="card-text"
+            >
+              <span
+                class="bottom-details duration-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-clock fa-w-16 "
+                  data-icon="clock"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 00:00:59
+              </span>
+              <span
+                class="bottom-details publish-date-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-calendar fa-w-14 "
+                  data-icon="calendar"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 02/03/2009
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-3 col-md-4 col-sm-6 col-12"
+        style="margin-top: 15px;"
+      >
+        <div
+          class="card"
+          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+        >
+          <div
+            class="flexbox"
+            style="place-content: center; padding: 5px;"
+          >
+            <img
+              alt="CSS Animations"
+              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+              style="height: 120px; opacity: 1;"
+            />
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="bookcard-title card-title h5"
+              title="CSS Animations"
+            >
+              CSS Animations
+            </div>
+            <p
+              class="card-text"
+            >
+              Alan Smith
+            </p>
+            <p
+              class="card-text"
+            >
+              Learn how to animate anything in CSS
+            </p>
+            <p
+              class="card-text"
+            >
+              <span
+                class="bottom-details duration-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-clock fa-w-16 "
+                  data-icon="clock"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 00:02:11
+              </span>
+              <span
+                class="bottom-details publish-date-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-calendar fa-w-14 "
+                  data-icon="calendar"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 04/12/2018
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-3 col-md-4 col-sm-6 col-12"
+        style="margin-top: 15px;"
+      >
+        <div
+          class="card"
+          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+        >
+          <div
+            class="flexbox"
+            style="place-content: center; padding: 5px;"
+          >
+            <img
+              alt="JS - Zero to hero"
+              src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"
+              style="height: 120px; opacity: 1;"
+            />
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="bookcard-title card-title h5"
+              title="JS - Zero to hero"
+            >
+              JS - Zero to hero
+            </div>
+            <p
+              class="card-text"
+            >
+              Sarah Parker
+            </p>
+            <p
+              class="card-text"
+            >
+              Everything you need to know in JS
+            </p>
+            <p
+              class="card-text"
+            >
+              <span
+                class="bottom-details duration-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-clock fa-w-16 "
+                  data-icon="clock"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm57.1 350.1L224.9 294c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12v137.7l63.5 46.2c5.4 3.9 6.5 11.4 2.6 16.8l-28.2 38.8c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 01:01:35
+              </span>
+              <span
+                class="bottom-details publish-date-section"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-calendar fa-w-14 "
+                  data-icon="calendar"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                    fill="currentColor"
+                  />
+                </svg>
+                 12/05/2017
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -41,7 +41,7 @@ const ItemListPage = () => {
       book => new Date(book.publishDate),
       sortByDate
     );
-    let sortDirection = sortByDate === "asc" ? "Ascending" : "Descending" ;
+    let sortDirection = sortByDate === "asc" ? "Ascending" : "Descending";
     setBooks(sortedBooks);
     setSortMessage(`Ordered by Publish Date - ${sortDirection}`);
   };
@@ -63,10 +63,10 @@ const ItemListPage = () => {
       book => getSeconds(book.duration),
       sortByTiming
     );
-    let sortDirection = sortByTiming === "asc" ? "Ascending" : "Descending" ;
+    let sortDirection = sortByTiming === "asc" ? "Ascending" : "Descending";
 
     setBooks(sortedBooks);
-     setSortMessage(`Ordered by Video Duration - ${sortDirection}`);
+    setSortMessage(`Ordered by Video Duration - ${sortDirection}`);
   };
 
   const getSeconds = duration => {
@@ -75,11 +75,7 @@ const ItemListPage = () => {
 
   const resetSort = () => {
     let sortedBooks = books;
-    sortedBooks = _.orderBy(
-      sortedBooks,
-      book => book.id,
-      "asc"
-    );
+    sortedBooks = _.orderBy(sortedBooks, book => book.id, "asc");
     setBooks(sortedBooks);
     setSortMessage("");
   };
@@ -147,14 +143,20 @@ const ItemListPage = () => {
         books={books}
       />
       <Container>
-        <Row className="header-bar" >
-          <Col lg={6}  className="flexbox">
-            <div><FontAwesomeIcon icon={faHome} className="header-breadcrumb" />
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              className="header-breadcrumb"
-            />
-            <span className="header-breadcrumb">Search Results {sortMessage && <span className="sort-message"> ({sortMessage}) </span>}</span>
+        <Row className="header-bar">
+          <Col lg={6} className="flexbox">
+            <div>
+              <FontAwesomeIcon icon={faHome} className="header-breadcrumb" />
+              <FontAwesomeIcon
+                icon={faChevronRight}
+                className="header-breadcrumb"
+              />
+              <span className="header-breadcrumb">
+                Search Results{" "}
+                {sortMessage && (
+                  <span className="sort-message"> ({sortMessage}) </span>
+                )}
+              </span>
             </div>
           </Col>
           <Col lg={6} style={{ textAlign: "right" }}>
@@ -173,25 +175,29 @@ const ItemListPage = () => {
             >
               Duration <FontAwesomeIcon icon={faSort} />
             </Button>
-           {sortMessage && <span className="filter-options" title="Reset Filter" onClick={() => resetSort()} color="gray" style={{marginLeft: 30}}><FontAwesomeIcon icon={faRedo} color="gray" /> Reset</span>} 
-           </Col>
+            {sortMessage && (
+              <span
+                className="filter-options"
+                title="Reset Filter"
+                onClick={() => resetSort()}
+                color="gray"
+                style={{ marginLeft: 30 }}
+              >
+                <FontAwesomeIcon icon={faRedo} color="gray" /> Reset
+              </span>
+            )}
+          </Col>
         </Row>
       </Container>
 
       <Row className="items">
         {books.map(
-          ({ image, description, author, publishDate, duration, name, id }) => {
+          (book) => {
             return (
               <BookCardComponent
-                key={`book-${id}`}
-                id={id}
-                image={image}
-                title={name}
-                description={description}
-                author={author}
-                publishDate={publishDate}
-                duration={duration}
-                isAddedtoCart={cart.includes(id) ? true : false}
+                key={`book-${book.id}`}
+                book={book}
+                isAddedtoCart={cart.includes(book.id) ? true : false}
                 onButtonClick={id => handleCartAction(id)}
               />
             );

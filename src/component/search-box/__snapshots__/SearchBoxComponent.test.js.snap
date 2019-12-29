@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the seaarch box component 1`] = `
+<DocumentFragment>
+  <div
+    class="flexbox search-container"
+  >
+    <img
+      alt="Search"
+      class="search-icon"
+      src="Search.svg"
+    />
+    <input
+      class="search-box input-font"
+      placeholder="What do you want to learn?"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

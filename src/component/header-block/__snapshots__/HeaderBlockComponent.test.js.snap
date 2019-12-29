@@ -12,7 +12,7 @@ exports[`should render HeaderBlockComoponent with 1 item in cart 1`] = `
       <img
         alt="logo"
         class="header-logo-image"
-        src="https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a2QcXUAU"
+        src="logo.png"
       />
     </a>
     <button
@@ -127,7 +127,7 @@ exports[`should render HeaderBlockComoponent with 1 item in cart without being s
       <img
         alt="logo"
         class="header-logo-image"
-        src="https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a2QcXUAU"
+        src="logo.png"
       />
     </a>
     <button

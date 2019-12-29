@@ -15,7 +15,7 @@ exports[`should render the Item List Page 1`] = `
         <img
           alt="logo"
           class="header-logo-image"
-          src="https://appexchange.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000a2QcXUAU"
+          src="logo.png"
         />
       </a>
       <button

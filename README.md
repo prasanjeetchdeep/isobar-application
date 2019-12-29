@@ -29,7 +29,7 @@ This project is bootstrapped with [Create React App](https://github.com/facebook
 4. History - https://www.npmjs.com/package/history
 5. Node-Sass - https://www.npmjs.com/package/node-sass
 6. React testing Library. 
-7. React Router Dom / . React Dom. 
+7. React Router Dom / React Dom. 
 
 ------------
 

@@ -1,6 +1,6 @@
 export const bookData = [
   {
-    id: "1",
+    id: 1,
     name: "React - basics",
     description: "This course is going to take you through basics of React.",
     author: "James White",
@@ -9,17 +9,17 @@ export const bookData = [
     image: "https://cdn.auth0.com/blog/react-js/react.png"
   },
   {
-    id: "2",
+    id: 2,
     name: "Vue - learn vue in an hour",
     description:
       "This course teaches you how to build a vue application in an hour.",
     author: "Michael Brown",
-    publishDate: "17/10/2019",
+    publishDate: "02/03/2009",
     duration: "00:00:59",
     image: "https://vuejs.org/images/logo.png"
   },
   {
-    id: "3",
+    id: 3,
     name: "CSS Animations",
     description: "Learn how to animate anything in CSS",
     author: "Alan Smith",
@@ -29,11 +29,11 @@ export const bookData = [
       "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
   },
   {
-    id: "4",
+    id: 4,
     name: "JS - Zero to hero",
     description: "Everything you need to know in JS",
     author: "Sarah Parker",
-    publishDate: "12/03/2019",
+    publishDate: "12/05/2017",
     duration: "01:01:35",
     image:
       "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"

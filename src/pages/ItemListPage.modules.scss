@@ -1,4 +1,4 @@
-$spacing : 15px;
+$spacing: 15px;
 
 .header-logo-image {
   height: 40px;
@@ -14,19 +14,47 @@ $spacing : 15px;
 }
 
 .items {
-  margin-top: 40px;
+  margin-top: 10px;
+}
+
+.filter-options {
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .jumbotron-background {
   background-position: right;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(228, 228, 228, 0.3)), url(https://purefy.blob.core.windows.net/cdn/images/comp-inschool.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: unset;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.85),
+      rgba(228, 228, 228, 0.3)
+    ),
+    url(https://purefy.blob.core.windows.net/cdn/images/comp-inschool.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: unset;
 }
-.badge-count{
+.badge-count {
   position: absolute;
   margin-left: -12px;
   margin-top: -8px;
   border-radius: 100%;
+}
+
+.header-bar {
+  box-shadow: 0 5px 4px -6px #adadad;
+  background: rgb(248, 249, 250);
+  padding: 15px;
+}
+
+.header-breadcrumb {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.sort-message{
+  font-size: 14px;
+  color: #157af6;
+  margin-left: 10px;
 }

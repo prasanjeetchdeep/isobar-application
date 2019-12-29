@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="list-group-item"
+  >
+    <div
+      class="flexbox header-item-container"
+    >
+      <img
+        src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+        style="height: 30px;"
+      />
+      <div
+        class="flexbox header-item-description"
+      >
+        <div
+          class="flexbox header-item-name"
+        >
+          CSS Animations
+        </div>
+        <div
+          class="flexbox header-item-author"
+        >
+          Alan Smith
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders the above book at index 1 1`] = `
+<DocumentFragment>
+  <div
+    class="list-group-item"
+  >
+    <div
+      class="flexbox header-item-container"
+    >
+      <img
+        src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+        style="height: 30px;"
+      />
+      <div
+        class="flexbox header-item-description"
+      >
+        <div
+          class="flexbox header-item-name"
+        >
+          CSS Animations
+        </div>
+        <div
+          class="flexbox header-item-author"
+        >
+          Alan Smith
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

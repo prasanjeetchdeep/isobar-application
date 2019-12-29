@@ -95,7 +95,7 @@ exports[`should render the Item List Page 1`] = `
           <p
             class="jumbotron-subtitle"
           >
-            We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
+            We appreciate students like you. Get courses now! Ends Dec. 31
           </p>
           <div
             class="flexbox search-container"

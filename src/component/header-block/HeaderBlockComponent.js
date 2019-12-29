@@ -51,6 +51,7 @@ const HeaderBlockComponent = ({
                           if (cart.includes(book.id)) {
                             return (
                               <HeaderShoppingCartItems
+                              key={`shp-${index}`}
                                 book={book}
                                 index={index}
                               />
@@ -98,8 +99,7 @@ const HeaderBlockComponent = ({
           <div className="search-jt-container" style={{ maxWidth: 500 }}>
             <h1 className="jumbotron-title">A special thank you</h1>
             <p className="jumbotron-subtitle">
-              We appreciate students like you. Get courses from ₹432! Ends Dec.
-              26.
+              We appreciate students like you. Get courses now! Ends Dec. 31
             </p>
 
             <SearchBoxComponent

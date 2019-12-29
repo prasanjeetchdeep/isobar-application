@@ -92,7 +92,7 @@ exports[`should render HeaderBlockComoponent with 1 item in cart 1`] = `
         <p
           class="jumbotron-subtitle"
         >
-          We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
+          We appreciate students like you. Get courses now! Ends Dec. 31
         </p>
         <div
           class="flexbox search-container"
@@ -207,7 +207,7 @@ exports[`should render HeaderBlockComoponent with 1 item in cart without being s
         <p
           class="jumbotron-subtitle"
         >
-          We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
+          We appreciate students like you. Get courses now! Ends Dec. 31
         </p>
         <div
           class="flexbox search-container"

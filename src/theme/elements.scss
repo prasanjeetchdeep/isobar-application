@@ -1,5 +1,9 @@
 @import "./themes.scss";
 
+/*
+* Generic Styles
+*/
+
 h1 {
   font-family: Montserrat-SemiBold;
   font-size: 48px;
@@ -16,10 +20,23 @@ h2 {
   display: flex;
   align-items: center;
 }
+
 .flexbox-column {
   flex-direction: column;
 }
+
 .flexbox-row {
   flex-direction: row;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.relative-position{
+  position: relative;
+}

@@ -19,17 +19,9 @@ const BookCardComponent = ({
   return (
     <Col lg={3} md={4} sm={6} xs={12} style={{ marginTop: 15 }}>
       <Card
-        onMouseEnter={() => {
-          setShowButton(true);
-        }}
-        onMouseLeave={() => {
-          setShowButton(false);
-        }}
-        style={{
-          boxShadow: "2px 2px 10px #e2e2e2",
-          cursor: "pointer",
-          position: "relative"
-        }}
+        className="book-card"
+        onMouseEnter={() => setShowButton(true)}
+        onMouseLeave={() => setShowButton(false)}
       >
         {showButton && !isAddedtoCart && (
           <span className="add-to-cart" onClick={() => onButtonClick(id)}>
@@ -41,11 +33,12 @@ const BookCardComponent = ({
             <FontAwesomeIcon icon={faTimesCircle} /> Remove from cart
           </span>
         )}
-        <div className="flexbox" style={{ placeContent: "center", padding: 5 }}>
+        <div className="flexbox card-image-container" style={{ padding: 5 }}>
           <img
+            className="card-image"
             src={image}
             alt={name}
-            style={{ height: 120, opacity: showButton ? 0.7 : 1 }}
+            style={{ opacity: showButton ? 0.7 : 1 }}
           />
         </div>
 

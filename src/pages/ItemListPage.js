@@ -6,12 +6,7 @@ import HeaderBlockComponent from "../component/header-block/HeaderBlockComponent
 import { bookData } from "../data/data";
 import LoginModalComponent from "../component/login-modal/LoginModalComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSort,
-  faHome,
-  faChevronRight,
-  faRedo
-} from "@fortawesome/free-solid-svg-icons";
+import { faSort,faHome,faChevronRight,faRedo } from "@fortawesome/free-solid-svg-icons";
 import _ from "lodash";
 
 const ItemListPage = () => {
@@ -41,6 +36,7 @@ const ItemListPage = () => {
       book => new Date(book.publishDate),
       sortByDate
     );
+
     let sortDirection = sortByDate === "asc" ? "Ascending" : "Descending";
     setBooks(sortedBooks);
     setSortMessage(`Ordered by Publish Date - ${sortDirection}`);
@@ -63,8 +59,8 @@ const ItemListPage = () => {
       book => getSeconds(book.duration),
       sortByTiming
     );
+    
     let sortDirection = sortByTiming === "asc" ? "Ascending" : "Descending";
-
     setBooks(sortedBooks);
     setSortMessage(`Ordered by Video Duration - ${sortDirection}`);
   };
@@ -129,6 +125,7 @@ const ItemListPage = () => {
         filterData.push(book);
       }
     });
+    resetSort();
     setBooks(filterData);
   };
 
@@ -159,7 +156,7 @@ const ItemListPage = () => {
               </span>
             </div>
           </Col>
-          <Col lg={6} style={{ textAlign: "right" }}>
+          <Col lg={6} className="text-align-right">
             Sort By :
             <Button
               variant="outline-primary"
@@ -191,18 +188,16 @@ const ItemListPage = () => {
       </Container>
 
       <Row className="items">
-        {books.map(
-          (book) => {
-            return (
-              <BookCardComponent
-                key={`book-${book.id}`}
-                book={book}
-                isAddedtoCart={cart.includes(book.id) ? true : false}
-                onButtonClick={id => handleCartAction(id)}
-              />
-            );
-          }
-        )}
+        {books.map(book => {
+          return (
+            <BookCardComponent
+              key={`book-${book.id}`}
+              book={book}
+              isAddedtoCart={cart.includes(book.id) ? true : false}
+              onButtonClick={id => handleCartAction(id)}
+            />
+          );
+        })}
         {books.length === 0 && (
           <Col style={{ padding: 20 }}>
             <Alert variant="danger">No Books Found !</Alert>

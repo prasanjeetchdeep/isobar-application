@@ -1,41 +1,54 @@
-.add-to-cart{
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    background: #3f8a4b;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #fff;
-    z-index: 99999;
+.add-to-cart {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #3f8a4b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 99999;
 }
 
-.remove-from-cart{
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    background: #f95555;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #fff;
-    z-index: 99999;
+.remove-from-cart {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #f95555;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 99999;
 }
 
-.bottom-details{
-    font-size: 12px;
-    color:gray;
-    margin-top: 10px;
+.bottom-details {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
 }
 
-.duration-section{
-    float: left;
+.duration-section {
+  float: left;
 }
 
-.publish-date-section{
-    float: right;
+.publish-date-section {
+  float: right;
 }
 
-.bookcard-title{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.bookcard-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-card {
+  box-shadow: "2px 2px 10px #e2e2e2";
+  cursor: pointer;
+  position: relative;
+}
+
+.card-image-container{
+    place-content: center;
+}
+.card-image{
+    height: 120px;
 }

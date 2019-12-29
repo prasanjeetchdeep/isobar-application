@@ -1,20 +1,24 @@
-.header-item-container{
-    flex-direction: row;
-    
-    .header-item-description{
-        flex-direction: column;
-        .header-item-name{
-            margin-left: 20px;
-            text-align: left;
-            align-self: flex-start;
-        }
-        .header-item-author{
-            margin-left: 20px;
-            text-align: left;
-            align-self: flex-start;
-            font-size: 12px;
-            color: gray;
-        }
+.header-item-container {
+  flex-direction: row;
+
+  .header-item-image {
+    height: 30px;
+  }
+
+  .header-item-description {
+    flex-direction: column;
+
+    .header-item-name {
+      margin-left: 20px;
+      text-align: left;
+      align-self: flex-start;
     }
-    
+    .header-item-author {
+      margin-left: 20px;
+      text-align: left;
+      align-self: flex-start;
+      font-size: 12px;
+      color: gray;
+    }
+  }
 }

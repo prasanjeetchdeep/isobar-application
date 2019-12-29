@@ -48,7 +48,7 @@ const LoginModalComponent = ({
                         aria-describedby="inputGroup-sizing-default"
                     />
                 </InputGroup>
-                <Button variant="primary" style={{ float: "right" }} onClick={() => validateLogin()}>Sign in</Button>
+                <Button variant="primary" className="float-right" onClick={() => validateLogin()}>Sign in</Button>
 
             </Modal.Body>
 

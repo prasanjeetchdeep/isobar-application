@@ -36,10 +36,10 @@ exports[`should render HeaderBlockComoponent with 1 item in cart 1`] = `
         class="header-options"
       >
         <span
-          style="position: relative;"
+          class="relative-position"
         >
           <span
-            style="cursor: pointer;"
+            class="cursor-pointer"
           >
             <svg
               aria-hidden="true"
@@ -81,15 +81,16 @@ exports[`should render HeaderBlockComoponent with 1 item in cart 1`] = `
       class="jumbotron-background jumbotron"
     >
       <div
+        class="search-jt-container"
         style="max-width: 500px;"
       >
         <h1
-          style="color: rgb(232, 230, 230);"
+          class="jumbotron-title"
         >
           A special thank you
         </h1>
         <p
-          style="color: rgb(199, 199, 199);"
+          class="jumbotron-subtitle"
         >
           We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
         </p>
@@ -150,10 +151,10 @@ exports[`should render HeaderBlockComoponent with 1 item in cart without being s
         class="header-options"
       >
         <span
-          style="position: relative;"
+          class="relative-position"
         >
           <span
-            style="cursor: pointer;"
+            class="cursor-pointer"
           >
             <svg
               aria-hidden="true"
@@ -195,15 +196,16 @@ exports[`should render HeaderBlockComoponent with 1 item in cart without being s
       class="jumbotron-background jumbotron"
     >
       <div
+        class="search-jt-container"
         style="max-width: 500px;"
       >
         <h1
-          style="color: rgb(232, 230, 230);"
+          class="jumbotron-title"
         >
           A special thank you
         </h1>
         <p
-          style="color: rgb(199, 199, 199);"
+          class="jumbotron-subtitle"
         >
           We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
         </p>

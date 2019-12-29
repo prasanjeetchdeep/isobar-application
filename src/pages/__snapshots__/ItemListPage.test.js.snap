@@ -39,10 +39,10 @@ exports[`should render the Item List Page 1`] = `
           class="header-options"
         >
           <span
-            style="position: relative;"
+            class="relative-position"
           >
             <span
-              style="cursor: pointer;"
+              class="cursor-pointer"
             >
               <svg
                 aria-hidden="true"
@@ -84,15 +84,16 @@ exports[`should render the Item List Page 1`] = `
         class="jumbotron-background jumbotron"
       >
         <div
+          class="search-jt-container"
           style="max-width: 500px;"
         >
           <h1
-            style="color: rgb(232, 230, 230);"
+            class="jumbotron-title"
           >
             A special thank you
           </h1>
           <p
-            style="color: rgb(199, 199, 199);"
+            class="jumbotron-subtitle"
           >
             We appreciate students like you. Get courses from ₹432! Ends Dec. 26.
           </p>
@@ -162,8 +163,7 @@ exports[`should render the Item List Page 1`] = `
           </div>
         </div>
         <div
-          class="col-lg-6"
-          style="text-align: right;"
+          class="text-align-right col-lg-6"
         >
           Sort By :
           <button
@@ -219,17 +219,17 @@ exports[`should render the Item List Page 1`] = `
         style="margin-top: 15px;"
       >
         <div
-          class="card"
-          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+          class="book-card card"
         >
           <div
-            class="flexbox"
-            style="place-content: center; padding: 5px;"
+            class="flexbox card-image-container"
+            style="padding: 5px;"
           >
             <img
               alt="React - basics"
+              class="card-image"
               src="https://cdn.auth0.com/blog/react-js/react.png"
-              style="height: 120px; opacity: 1;"
+              style="opacity: 1;"
             />
           </div>
           <div
@@ -303,17 +303,17 @@ exports[`should render the Item List Page 1`] = `
         style="margin-top: 15px;"
       >
         <div
-          class="card"
-          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+          class="book-card card"
         >
           <div
-            class="flexbox"
-            style="place-content: center; padding: 5px;"
+            class="flexbox card-image-container"
+            style="padding: 5px;"
           >
             <img
               alt="Vue - learn vue in an hour"
+              class="card-image"
               src="https://vuejs.org/images/logo.png"
-              style="height: 120px; opacity: 1;"
+              style="opacity: 1;"
             />
           </div>
           <div
@@ -387,17 +387,17 @@ exports[`should render the Item List Page 1`] = `
         style="margin-top: 15px;"
       >
         <div
-          class="card"
-          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+          class="book-card card"
         >
           <div
-            class="flexbox"
-            style="place-content: center; padding: 5px;"
+            class="flexbox card-image-container"
+            style="padding: 5px;"
           >
             <img
               alt="CSS Animations"
+              class="card-image"
               src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-              style="height: 120px; opacity: 1;"
+              style="opacity: 1;"
             />
           </div>
           <div
@@ -471,17 +471,17 @@ exports[`should render the Item List Page 1`] = `
         style="margin-top: 15px;"
       >
         <div
-          class="card"
-          style="box-shadow: 2px 2px 10px #e2e2e2; cursor: pointer; position: relative;"
+          class="book-card card"
         >
           <div
-            class="flexbox"
-            style="place-content: center; padding: 5px;"
+            class="flexbox card-image-container"
+            style="padding: 5px;"
           >
             <img
               alt="JS - Zero to hero"
+              class="card-image"
               src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"
-              style="height: 120px; opacity: 1;"
+              style="opacity: 1;"
             />
           </div>
           <div

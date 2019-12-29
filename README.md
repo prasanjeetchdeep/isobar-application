@@ -10,7 +10,7 @@
 
 ### Introduction : 
 
-This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The main objective of this project is to create a search / sort based web application in React  This application also has options to add / remove book videos to and from the cart. 
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The main objective of this project is to create a search / sort based web application in React  This application also has options to add / remove book videos to and from the cart. <br/>
 **This project has also been hosted on https://www.netlify.com/ and can be accessed by visiting the following url : https://isobar-assignment.netlify.com/**
 
 

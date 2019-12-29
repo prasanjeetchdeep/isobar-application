@@ -17,7 +17,7 @@ const BookCardComponent = ({ id, image, title, description, author, duration, pu
         </div>
 
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className="bookcard-title" title={title}>{title}</Card.Title>
           <Card.Text>{author}</Card.Text>
           <Card.Text>{description}</Card.Text>
           

@@ -33,3 +33,9 @@
 .publish-date-section{
     float: right;
 }
+
+.bookcard-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
